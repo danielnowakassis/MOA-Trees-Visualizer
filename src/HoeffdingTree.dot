@@ -1,0 +1,20 @@
+digraph {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="[att 14:att14] <= 0.18181818181818182", fillcolor="#ffffff"] ;
+0 -> 1 ; 
+1 [label="[att 27:att27] <= 0.0034951818181818183", fillcolor="#ffffff"] ;
+1 -> 2 ; 
+2 [label="[att 27:att27] <= 3.1329999999999997E-4", fillcolor="#ffffff"] ;
+2 -> 3 ; 
+3 [label="[class:class] = <class 6:5>\nweights: {367|1.671|679|1.144|2.949|3.612|358|3.391,353|1.399|209}", fillcolor="#ffffff"] ;
+2 -> 4 ; 
+4 [label="[class:class] = <class 3:2>\nweights: {167|1.489|2.080|976|197|286|927|642,647|131|46}", fillcolor="#ffffff"] ;
+1 -> 5 ; 
+5 [label="[class:class] = <class 7:6>\nweights: {1.323|528,587|853,753|1.113,846|542|651|3.322|514|578|1.232}", fillcolor="#ffffff"] ;
+0 -> 6 ; 
+6 [label="[att 27:att27] <= 0.017610545454545455", fillcolor="#ffffff"] ;
+6 -> 7 ; 
+7 [label="[class:class] = <class 1:0>\nweights: {2.162|792|610|1.239|735|40|26|96|1.898|501}", fillcolor="#ffffff"] ;
+6 -> 8 ; 
+8 [label="[class:class] = <class 10:9>\nweights: {646|166|442|192|221|55|32|0|638|2.677}", fillcolor="#ffffff"] ;}
